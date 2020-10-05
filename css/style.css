@@ -1,0 +1,23 @@
+ /* GENERAL HEIGHTS */
+.h-80 {
+  height: 80px;
+}
+.h-650 {
+  height: 650px;
+}
+.h-1300 {
+  height: 1300px;
+}
+/* GENERAL COLORS */
+.blue {
+  background-color: #2D3D50;
+}
+.green {
+  background-color: #18BC9B;
+}
+.white {
+  background-color: #FFFFFF;
+}
+.dark {
+  background-color: #1A252F;
+}
