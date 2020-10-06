@@ -6,29 +6,45 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
   </head>
   <body>
 
     <header>
 
       <section class="nav blue">
-        <div class="container-fluid">
+        <div class="container">
           <div class="row">
-            <div class="col-xs-6 h-80 border">
-              <!-- start bootstrap -->
+            <div class="left col-xs-6 h-100">
+              <strong>START BOOTSTRAP</strong>
             </div>
-            <div class="col-xs-6 hidden-md hidden-lg h-80 border">
+            <div class="col-xs-6 hidden-md hidden-lg rel h-100">
+              <a id="nav-blue-button" class="btn btn-default central-right green" href="#" role="button"><span>MENU </span><span class="glyphicon glyphicon-menu-hamburger" aria-hidden="true"></span></a>
               <!-- hamburger -->
             </div>
-            <div class="hidden-xs hidden-sm col-md-6 col-lg-6 h-80 border">
+            <div class="right hidden-xs hidden-sm col-md-6 col-lg-6 h-100">
+              <ul class="text-right">
+                <li><a href="#"><strong>PORTFOLIO</strong></a></li>
+                <li><a href="#"><strong>ABOUT</strong></a></li>
+                <li><a href="#"><strong>CONTACT</strong></a></li>
+              </ul>
               <!-- hamburger trasformato in scritte -->
             </div>
           </div>
         </div>
       </section>
 
-      <section class="jumbo h-650 green rel">
-          <!-- per questa sezione non mi sembra necessario utilizzare gli elementi del framework bootstrap -->
+      <section class="jumbo green">
+          <div class="container">
+            <img src="img/avatar.svg" alt="avatar">
+            <h1>START BOOTSTRAP</h1>
+            <div class="star">
+              <div class="line left"></div>
+              <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+              <div class="line right"></div>
+            </div>
+            <p>Graphic Artist - Web Designer - Illustrator</p>
+          </div>
       </section>
 
     </header>
@@ -36,7 +52,7 @@
     <main>
 
       <section class="portfolio white">
-        <div class="container-fluid">
+        <div class="container">
           <div class="row">
             <div class="col-xs-12 h-80 border">
               <!-- portfolio -->
@@ -67,7 +83,7 @@
         <div class="h-150 border">
           <!-- about e stella -->
         </div>
-        <div class="container fluid">
+        <div class="container">
           <div class="row">
             <div class="col-xs-12 col-md-6 col-lg-6 h-150 border">
               <!-- freelancer is a free...  -->
@@ -91,7 +107,7 @@
     <footer>
 
       <section class="location blue">
-        <div class="container-fluid">
+        <div class="container">
           <div class="row">
             <div class="col-xs-12 col-md-4 col-lg-4 h-150 border">
               <!-- location -->
@@ -106,7 +122,8 @@
         </div>
       </section>
 
-      <section class="copy dark h-80">
+      <section class="copy rel dark h-80">
+        <span class="central">Copyright © Your Website 2020</span>
         <!-- per questa sezione non mi sembra necessario utilizzare gli elementi del framework bootstrap -->
       </section>
 
