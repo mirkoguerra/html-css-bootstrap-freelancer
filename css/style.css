@@ -113,35 +113,74 @@ header .jumbo p {
   margin-bottom: 40px;
 }
 /* MAIN */
-main .portfolio {
+main .portfolio, main .contact {
   text-align: center;
   color: #2D3D50;
 }
-main .portfolio h2 {
+main h2 {
   margin-top: 50px;
   margin-bottom: 30px;
 }
-main .portfolio .star .line {
+main .star .line {
   display: inline-block;
-  border: 2px solid #2D3D50;
   width: 100px;
   margin-bottom: 10px;
 }
-main .portfolio .star .line.left {
+main .portfolio .star .line, main .contact .star .line {
+  border: 2px solid #2D3D50;
+}
+main .star .line.left {
   margin-right: 10px;
 }
-main .portfolio .star .line.right {
+main .star .line.right {
   margin-left: 10px;
 }
-main .portfolio .star span {
-  color: #2D3D50;
+main .star span {
   font-size: 3rem;
   margin-bottom: 40px;
+}
+main .portfolio .star span, main .contact .star span {
+  color: #2D3D50;
 }
 main .portfolio img {
   height: 300px;
   border-radius: 10px;
   margin-bottom: 40px;
+}
+main .about {
+  text-align: center;
+  color: #FFFFFF;
+}
+main .about .star .line {
+  border: 2px solid #FFFFFF;
+}
+main .about .star span {
+  color: #FFFFFF;
+}
+main .about p {
+  font-weight: 600;
+  margin-bottom: 20px;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+#main-green-button {
+  font-size: 2rem;
+  color: white;
+  padding: 20px;
+  margin-top: 20px;
+  margin-bottom: 40px;
+  border: 2px solid white;
+  border-radius: 10px;
+}
+#main-bottom-button {
+  font-size: 2rem;
+  color: white;
+  padding: 20px;
+  margin-top: 20px;
+  margin-bottom: 40px;
+  border-radius: 10px;
+  border: none;
 }
 /* FOOTER */
 footer .location {
@@ -188,7 +227,7 @@ footer .copy span {
   }
   main .portfolio img {
     height: 250px;
-  }  
+  }
 }
 @media screen and (min-width: 992px) and (max-width: 1199px) {
   header .nav.blue .left strong {
