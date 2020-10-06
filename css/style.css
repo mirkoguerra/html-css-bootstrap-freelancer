@@ -109,6 +109,36 @@ header .jumbo p {
   margin-bottom: 40px;
 }
 /* FOOTER */
+footer .location {
+  text-align: center;
+}
+footer .location h3 {
+  font-weight: 600;
+  margin-top: 60px;
+  margin-bottom: 20px;
+}
+footer .location p {
+  margin-bottom: 0px;
+}
+footer .location .icone {
+  padding-left: 0px;
+}
+footer .location a i {
+  font-size: 2rem;
+  padding: 15px;
+  border: 1px solid white;
+  border-radius: 50%;
+}
+footer .location a i.fa-facebook {
+  padding-left: 18px;
+  padding-right: 18px;
+}
+#footer-last-p{
+  margin-bottom: 60px;
+}
+footer .location p a {
+  color: #18BC9B;
+}
 footer .copy span {
   display: inline-block;
   font-size: 1.3rem;
@@ -118,7 +148,9 @@ footer .copy span {
 
 }
 @media screen and (min-width: 768px) and (max-width: 991px) {
-
+  footer .location a i {
+    margin-left: 5px;
+  }
 }
 @media screen and (min-width: 992px) and (max-width: 1199px) {
   header .nav.blue .left strong {
@@ -131,6 +163,9 @@ footer .copy span {
     font-size: 3rem;
     margin-bottom: 60px;
   }
+  footer .location a i {
+    margin-left: 5px;
+  }
 }
 @media screen and (min-width: 1200px) {
   header .nav.blue .left strong {
@@ -142,5 +177,8 @@ footer .copy span {
   header .jumbo p {
     font-size: 3rem;
     margin-bottom: 60px;
+  }
+  footer .location a i {
+    margin-left: 5px;
   }
 }
