@@ -55,6 +55,10 @@ h1 {
   font-size: 4rem;
   font-weight: 600;
 }
+h2 {
+  font-size: 3rem;
+  font-weight: 600;
+}
 p {
   font-size: 2rem;
 }
@@ -108,6 +112,37 @@ header .jumbo p {
   margin-top: 20px;
   margin-bottom: 40px;
 }
+/* MAIN */
+main .portfolio {
+  text-align: center;
+  color: #2D3D50;
+}
+main .portfolio h2 {
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+main .portfolio .star .line {
+  display: inline-block;
+  border: 2px solid #2D3D50;
+  width: 100px;
+  margin-bottom: 10px;
+}
+main .portfolio .star .line.left {
+  margin-right: 10px;
+}
+main .portfolio .star .line.right {
+  margin-left: 10px;
+}
+main .portfolio .star span {
+  color: #2D3D50;
+  font-size: 3rem;
+  margin-bottom: 40px;
+}
+main .portfolio img {
+  height: 300px;
+  border-radius: 10px;
+  margin-bottom: 40px;
+}
 /* FOOTER */
 footer .location {
   text-align: center;
@@ -126,7 +161,7 @@ footer .location .icone {
 footer .location a i {
   font-size: 2rem;
   padding: 15px;
-  border: 1px solid white;
+  border: 2px solid white;
   border-radius: 50%;
 }
 footer .location a i.fa-facebook {
@@ -151,6 +186,9 @@ footer .copy span {
   footer .location a i {
     margin-left: 5px;
   }
+  main .portfolio img {
+    height: 250px;
+  }  
 }
 @media screen and (min-width: 992px) and (max-width: 1199px) {
   header .nav.blue .left strong {
@@ -162,6 +200,9 @@ footer .copy span {
   header .jumbo p {
     font-size: 3rem;
     margin-bottom: 60px;
+  }
+  h2 {
+    font-size: 4rem;
   }
   footer .location a i {
     margin-left: 5px;
@@ -177,6 +218,12 @@ footer .copy span {
   header .jumbo p {
     font-size: 3rem;
     margin-bottom: 60px;
+  }
+  h2 {
+    font-size: 4rem;
+  }
+  main .portfolio img {
+    height: 250px;
   }
   footer .location a i {
     margin-left: 5px;
