@@ -143,7 +143,7 @@ main .portfolio .star span, main .contact .star span {
   color: #2D3D50;
 }
 main .portfolio img {
-  height: 300px;
+  width: 100%;
   border-radius: 10px;
   margin-bottom: 40px;
 }
@@ -225,9 +225,6 @@ footer .copy span {
   footer .location a i {
     margin-left: 5px;
   }
-  main .portfolio img {
-    height: 250px;
-  }
 }
 @media screen and (min-width: 992px) and (max-width: 1199px) {
   header .nav.blue .left strong {
@@ -260,9 +257,6 @@ footer .copy span {
   }
   h2 {
     font-size: 4rem;
-  }
-  main .portfolio img {
-    height: 250px;
   }
   footer .location a i {
     margin-left: 5px;
