@@ -68,6 +68,10 @@ li {
 /* HEADER */
 header .nav.blue {
   line-height: 100px;
+  position: fixed;
+  top: 0;
+  z-index: 10;
+  width: 100%;
 }
 header .nav.blue .left strong {
   font-size: 1.8rem;
@@ -173,6 +177,10 @@ main .about p {
   border: 2px solid white;
   border-radius: 10px;
 }
+#main-green-button:hover {
+  background-color: white;
+  color: #18BC9B;
+}
 #main-bottom-button {
   font-size: 2rem;
   color: white;
@@ -181,6 +189,11 @@ main .about p {
   margin-bottom: 40px;
   border-radius: 10px;
   border: none;
+}
+#main-bottom-button:hover {
+  background-color: white;
+  color: #18BC9B;
+  border: 2px solid #18BC9B;
 }
 /* FOOTER */
 footer .location {
